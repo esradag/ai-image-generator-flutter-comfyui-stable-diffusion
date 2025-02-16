@@ -1,16 +1,17 @@
-# comfyuiapp
+### **AI Image Generator with Flutter, Flask, and Stable Diffusion (ComfyUI) 🎨🚀**  
 
-A new Flutter project.
+This project is an **AI-powered image generation app** that allows users to create stunning images from text prompts. It integrates **Flutter** for the front-end, **Flask** for the back-end, and **Stable Diffusion running on ComfyUI** for AI-based image generation.  
 
-## Getting Started
+### **✨ Features:**  
+✅ **Stable Diffusion (ComfyUI) Integration** – AI-generated high-quality images  
+✅ **Dynamic Image Loading** – Old images stay visible while new ones generate  
+✅ **Multi-line Prompt Input** – Enter detailed text descriptions  
+✅ **Optimized API Communication** – Smooth and fast processing  
+✅ **User-Friendly Flutter UI** – Dark-themed, modern, and responsive design  
 
-This project is a starting point for a Flutter application.
+### **🛠️ Tech Stack:**  
+- **Flutter** (UI & User Interaction)  
+- **Flask** (Backend API)  
+- **Stable Diffusion (ComfyUI)** (AI-powered image generation)  
+- **HTTP Requests** (Communication between Flutter & Flask)  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
