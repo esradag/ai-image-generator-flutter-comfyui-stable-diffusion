@@ -26,9 +26,7 @@ def start_queue(prompt_workflow):
 def generate_images(prompt_text):
     """Generates 4 images based on the input prompt."""
     with open("your json", "r") as file_json:
-        prompt = json.load(file_json)
-        prompt["6"]["inputs"]["text"] = f"digital artwork of a {prompt_text}"
-        prompt["5"]["inputs"]["batch_size"] = 4  # Create 4 images in one run
+        
 
     start_queue(prompt)
     previous_images = get_latest_images(OUTPUT_DIR)
